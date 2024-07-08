@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="estiloscss.css">
+</head>
+<body>
+    <h1>Desarrollo de mi Página Web</h1>
+    <h2>Conoce el Lenguaje HTML</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sint, cum, soluta nobis et blanditiis dicta molestias, sed temporibus aliquid iure? Exercitationem blanditiis ullam nostrum distinctio est fuga iste eos earum neque similique impedit veniam nemo illo, molestias, quos dignissimos!</p>
+
+    <h2>Qué es HTML</h2>
+    <p>Lorem ipsum dolor, sit amet <strong>consectetur adipisicing </strong> elit. Quos possimus dolorem nulla voluptate perspiciatis earum error officiis dicta praesentium tempore qui eligendi dolore, est voluptatem, <u>agni atque corporis</u>m facilis numquam iusto fugiat <strike>placeat pariatur</strike> nobis sed dolores? Maxime vero reprehenderit quos assumenda, deserunt <del>omnis fugit </del>nobis ducimus illo laborum itaque quo, facere quidem porro iure <i>architecto enim</i>  dignissimos sint nesciunt?</p>
+
+    <h2>Anclas</h2>
+
+    <a href="https://www.youtube.com/" target="_self">Ir a youtube</a>
+    <br>
+    <a href="https://www.google.com.mx/" target="_self">Ir a google</a>
+
+    <br><br><br><br><br><br><br><br><br>
+    <h3>Que es una variable</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae aut saepe iusto. Doloribus molestiae omnis voluptatum blanditiis iusto dolor libero laborum suscipit possimus veniam, maxime, vero, eos reiciendis exercitationem at delectus! Itaque consectetur necessitatibus id velit, reiciendis dolorem doloremque soluta eum, ex repellendus minima blanditiis facere hic, at animi eligendi!</p>
+    <table border="1px"></table>
+
+
+<table border> 
+    <caption> Datos Personales    
+    </caption>
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+        <th>Carrera</th>
+    </tr>
+    
+        <td>Kevin</td>
+        <td>Zapata</td>
+        <td>25</td>
+        <td>TSDS</td>
+    <tr> 
+
+        <td>Luis</td>
+        <td>Jaramillo</td>
+        <td>30</td>
+        <td>TSCS</td>
+     </tr>
+
+    <tr>
+        <td>Lucas</td>
+        <td>Jara</td>
+        <td>39</td>
+        <td>TSCS</td>
+    </tr>
+
+    <tr>
+        <td>Mario</td>
+        <td>Pérez</td>
+        <td>21</td>
+        <td>TSDS</td>
+    </tr>
+</table>
+
+<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quae!</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates aperiam mollitia delectus culpa velit fugit quo adipisci iusto, soluta obcaecati nisi et ea nesciunt eligendi at quis quas dolorum dolor? Maiores dolorum ea cupiditate iste?</p>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li> 
+</ul>
+<br>
+<img width="200"  height="200" alt="">
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R3FApQtcMl8?si=urFaw9Ytsw5uGGaL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<video controls href="">     
+
+</video> 
+<br><br>
+<form action="">
+    <label for="Nombre">Nombre</label><input type="text"> <br>
+    <label for="Apellido">Apellido<input type="text"> <br>
+    <label for="Email">Email</label><input type="email"> <br>
+    <label for="Password">Contraseña</label><input type="password"> <br>
+    <input type="submit">
+    <input type="reset">
+</form>
+
+<title>Mapa de Google</title>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=TU_CLAVE_API&callback=initMap" async defer></script>
+<script>
+    function initMap() {
+        
+        var options = {
+            zoom: 8, 
+            center: {lat: -34.397, lng: 150.644} 
+        }
+        
+       
+        var map = new google.maps.Map(document.getElementById('map'), options);
+        
+       
+        var marker = new google.maps.Marker({
+            position: options.center,
+            map: map
+        });
+    }
+</script>
+</body>
+</html>
